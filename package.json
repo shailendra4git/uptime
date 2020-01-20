@@ -1,0 +1,30 @@
+{
+  "name": "Ping",
+  "version": "0.2.0",
+  "description": "Website uptime monitor",
+  "main": "app.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qawemlilo/ping.git"
+  },
+  "keywords": [
+    "uptime",
+    "website monitor",
+    "http ping"
+  ],
+  "dependencies": {
+    "mailgun-js": "0.21.0",
+    "ping-monitor": "0.4.4"
+  },
+  "author": "Qawelesizwe Mlilo",
+  "license": "MIT",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  }
+}
